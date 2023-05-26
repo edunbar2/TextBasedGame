@@ -8,7 +8,7 @@ public:
 		LevelError = 0, LevelWarning, LevelInfo
 	};
 private:
-	Level m_LogLevel = LevelInfo
+	Level m_LogLevel = LevelInfo;
 public:
 	void SetLevel(Level level)
 	{
