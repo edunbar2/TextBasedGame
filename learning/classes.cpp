@@ -5,7 +5,7 @@ class Log
 public:
 	enum Level
 	{
-		LevelError = 0, LevelWarning, LevelInfo
+		LevelError, LevelWarning, LevelInfo
 	};
 private:
 	Level m_LogLevel = LevelInfo;
