@@ -30,6 +30,10 @@ public:
 int main()
 {
     Enemy e;
+    Enemy* testEnemy = new Enemy();
+    Enemy e = *testEnemy;
+    testEnemy->takeDamage(5);
+    e.takeDamage(6);
     e.takeDamage(10);
 
 }
